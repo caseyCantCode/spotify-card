@@ -60,8 +60,8 @@ function makeCard(options = {}) {
 
     logo = await recolor(logo, firstColor);
 
-    ctx.drawImage(logo, 50, 15, 40, 40);
-    ctx.fillText(`Spotify • ${album.name}`, 100, 45);
+    ctx.drawImage(logo, 50, 15, 45, 45);
+    ctx.fillText(`Spotify • ${album.name}`, 110, 45);
 
     return canvas.toBuffer();  
 } 
